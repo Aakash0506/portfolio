@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)100%,rgba(0,0,0,0.8)100%), url(1.png);
+    background-repeat: repeat   ;
+    background-position: center;
+    background-size:cover;
+    /* height: 200vh; */
+    float: inherit;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: left;
+}
+.icon{
+    width: 500px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: rgb(233, 228, 228);
+    font-size: 30px;
+    font-family: Arial;
+    padding: 20px;
+    float: left;
+    padding: 10px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 64px;
+    margin-top: 27px;
+    font-size: 30px;
+}
+ul li a{
+    text-decoration: none;
+    color: aqua;
+    font-family: Arial,;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: brown;
+}
+/* .search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid rgb(248, 6, 6);
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 13px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: rgb(248, 2, 2);
+    border: 2px solid rgb(248, 10, 10);
+    margin-top: 13px;
+    color: aliceblue;
+    font-size: 15px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn :focus{
+    outline: none;
+}
+.srch :focus{
+    outline: none;
+} */
+.home-content{
+    width: 1200px;
+    height: auto;
+    color: white;
+    position: relative;
+    justify-content: center;
+}
+.text{
+    width: 550px;
+    height: auto;
+    color: aqua;
+    padding-top: 55px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-family: Arial;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 3.2rem;
+}
+.textalign{
+    width: 850px;
+    height: auto;
+    color: aqua;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 3.2rem;
+}
+.textanimation{
+    width: 1200px;
+    height: auto;
+    color: blueviolet;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    justify-content: center;
+    align-items: center; 
+    display: flex;
+    font-size: 40px;
+}
+.home-content .pra{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;  
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+}
+.headeducation{
+     width: 1200px;
+    height: auto;
+    color: blueviolet;
+    padding-top: 55px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    justify-content: center;
+    align-items: center; 
+    display: flex;
+    font-size: 40px;
+}
+.hsc{
+    width: 1200px;
+    height: auto;
+    color: blueviolet;
+    padding-top: 55px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    justify-content: center;
+    align-items: center; 
+    display: flex;
+    font-size: 40px;
+}
+.sslc{
+    width: 1200px;
+    height: auto;
+    color: blueviolet;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    justify-content: center;
+    align-items: center; 
+    display: flex;
+    font-size: 40px;
+}
+.graduation{
+    width: 1200px;
+    height: auto;
+    color: blueviolet;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    justify-content: center;
+    align-items: center; 
+    display: flex;
+    font-size: 40px;
+}
+.pra{
+    color: aliceblue;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;  
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+}
+.headskills{
+      width: 1200px;
+    height: auto;
+    color: blueviolet;
+    padding-top: 55px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    justify-content: center;
+    align-items: center; 
+    display: flex;
+    font-size: 40px;
+}
+.html{
+    width: 550px;
+    height: auto;
+    color:blueviolet;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    font-family: Arial;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 3.2rem;
+}
+.contactme{
+    width: 1200px;
+    height: auto;
+    color: blueviolet;
+    padding-top: 55px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    justify-content: center;
+    align-items: center; 
+    display: flex;
+    font-size: 40px;
+}
+.mobile{
+    width: 550px;
+    height: auto;
+    color:blueviolet;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    font-family: Arial;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 3.2rem;
+}
